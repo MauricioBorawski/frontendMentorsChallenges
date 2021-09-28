@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="main.css" />
+
+    <title>Frontend Mentor | IP Address Tracker</title>
+  </head>
+  <body>
+    <div class="search-container">
+      <h1 id="title">IP Address Tracker</h1>
+      <div class="input-container">
+        <form class="search-form">
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Search for any IP address or domain"
+          />
+          <button id="submit-button" type="submit">
+            <img src="./images/icon-arrow.svg" />
+          </button>
+        </form>
+      </div>
+      <div class="display-info">
+        <div class="info" id="ip-address">
+          <p class="title">IP ADDRESS</p>
+          <p class="content"></p>
+        </div>
+        <div class="divider"></div>
+        <div class="info" id="location">
+          <p class="title">LOCATION</p>
+          <p class="content"></p>
+        </div>
+        <div class="divider"></div>
+        <div class="info" id="timezone">
+          <p class="title">TIMEZONE</p>
+          <p class="content"></p>
+        </div>
+        <div class="divider"></div>
+        <div class="info" id="isp">
+          <p class="title">ISP</p>
+          <p class="content"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
