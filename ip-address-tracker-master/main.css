@@ -66,6 +66,7 @@
   border-radius: 25px;
   background-color: white;
   top: 23%;
+  z-index: 999;
 }
 
 .info {
@@ -83,8 +84,8 @@
 }
 
 .content {
-    color:black;
-    font-size: 1.85rem;
+  color: black;
+  font-size: 1.85rem;
 }
 
 .divider {
@@ -92,4 +93,15 @@
   height: 50%;
   background-color: hsl(0, 0%, 59%);
   opacity: 0.3;
+}
+
+.map-container {
+  height: 70vh;
+  width: 100%;
+}
+
+#mapid {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
 }
