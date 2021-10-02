@@ -59,7 +59,7 @@
 .display-info {
   position: absolute;
   width: 75%;
-  height: 135px;
+  height: 120px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
