@@ -1,3 +1,5 @@
+import mymap from "./map.js";
+
 const form = document.querySelector(".search-form");
 const input = document.querySelector(".search-input");
 const submitButton = document.getElementById("submit-button");
@@ -16,4 +18,9 @@ form.addEventListener("submit", async (event) => {
   dataField[1].innerHTML = ipInfo.location.city;
   dataField[2].innerHTML = ipInfo.location.timezone;
   dataField[3].innerHTML = ipInfo.isp;
+
+  console.log([ipInfo.location.lat, ipInfo.location.lng]);
+
+  L.marker([ipInfo.location.lat, ipInfo.location.lng]).addTo(mymap);
 });
+
